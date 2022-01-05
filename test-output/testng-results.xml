@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="68131" started-at="2022-01-05T17:26:56Z" finished-at="2022-01-05T17:28:04Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@359f7cdf]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="68131" started-at="2022-01-05T17:26:56Z" finished-at="2022-01-05T17:28:04Z">
+      <class name="parallel.ParallelRun">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:parallel.ParallelRun@359f7cdf]" name="setUpClass" is-config="true" duration-ms="1493" started-at="2022-01-05T17:26:56Z" finished-at="2022-01-05T17:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@359f7cdf]" name="runScenario" duration-ms="15476" started-at="2022-01-05T17:26:57Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-05T17:27:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Accounts page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Account Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@359f7cdf]" name="runScenario" duration-ms="12924" started-at="2022-01-05T17:27:13Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-05T17:27:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Accounts section count"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Account Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@359f7cdf]" name="runScenario" duration-ms="11765" started-at="2022-01-05T17:27:26Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-05T17:27:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login page feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@359f7cdf]" name="runScenario" duration-ms="10690" started-at="2022-01-05T17:27:37Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-05T17:27:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Forgot Password link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login page feature]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Forgot your password?111"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WKWIN5087444', ip: '192.168.29.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\namgandh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62163}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bf5ff4b122bd01459c114c0234bd1f25
+*** Element info: {Using=link text, value=Forgot your password?111}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Forgot your password?111"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WKWIN5087444', ip: '192.168.29.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\namgandh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62163}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bf5ff4b122bd01459c114c0234bd1f25
+*** Element info: {Using=link text, value=Forgot your password?111}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.pages.LoginPage.isForgotPswdLinkExist(LoginPage.java:26)
+at parallel.LoginPageSteps.forgot_your_password_link_should_be_displayed(LoginPageSteps.java:33)
+at ✽.forgot your password link should be displayed(classpath:parallel/loginPage.feature:10)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@359f7cdf]" name="runScenario" duration-ms="13687" started-at="2022-01-05T17:27:48Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-05T17:28:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with correct credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login page feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:parallel.ParallelRun@359f7cdf]" name="tearDownClass" is-config="true" duration-ms="2013" started-at="2022-01-05T17:28:02Z" finished-at="2022-01-05T17:28:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- parallel.ParallelRun -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
